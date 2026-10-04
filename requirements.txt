@@ -1,0 +1,6 @@
+google-cloud-bigquery
+db-dtypes
+requests
+premailer
+google-auth
+openpyxl
