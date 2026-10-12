@@ -29,7 +29,7 @@ client = _load_bq_client()
 TENANT_ID     = os.environ['OTP_FRIDO_TENANT_ID']
 CLIENT_ID     = os.environ['OTP_FRIDO_CLIENT_ID']
 CLIENT_SECRET = os.environ['OTP_FRIDO_CLIENT_SECRET']
-FROM_EMAIL    = os.environ.get('FROM_EMAIL', 'data.team@myfrido.com')
+FROM_EMAIL    = os.environ.get('FROM_EMAIL', 'reports@myfrido.com')
 TO_EMAILS     = os.environ.get('EMAIL_TO', '').split(',')
 CC_EMAILS     = [e for e in os.environ.get('EMAIL_CC', '').split(',') if e.strip()]
 
@@ -1226,7 +1226,7 @@ resp = requests.post(
 resp.raise_for_status()
 token = resp.json()['access_token']
 
-subject = f'Frido D2C Sales & Returns Report | {date_label}'
+subject = f'Frido D2C Sales & Returns Performance Report | {date_label}'
 
 payload = {
     'message': {

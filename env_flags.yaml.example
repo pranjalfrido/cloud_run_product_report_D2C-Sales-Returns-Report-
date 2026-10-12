@@ -1,0 +1,8 @@
+--set-env-vars:
+  FROM_EMAIL: reports@myfrido.com
+  OTP_FRIDO_TENANT_ID: <azure-tenant-id>
+  OTP_FRIDO_CLIENT_ID: <azure-client-id>
+  OTP_FRIDO_CLIENT_SECRET: "<azure-client-secret>"
+  EMAIL_TO: "recipient@myfrido.com"
+  EMAIL_CC: ""
+  GCP_CREDENTIALS_B64: "<base64-encoded-gcp-service-account-json>"

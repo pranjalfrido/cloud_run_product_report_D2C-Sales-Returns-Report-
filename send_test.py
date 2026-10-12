@@ -26,7 +26,7 @@ client = _load_bq_client()
 TENANT_ID     = os.environ['OTP_FRIDO_TENANT_ID']
 CLIENT_ID     = os.environ['OTP_FRIDO_CLIENT_ID']
 CLIENT_SECRET = os.environ['OTP_FRIDO_CLIENT_SECRET']
-FROM_EMAIL    = os.environ.get('FROM_EMAIL', 'data.team@myfrido.com')
+FROM_EMAIL    = os.environ.get('FROM_EMAIL', 'reports@myfrido.com')
 TO_EMAILS     = ['pranjal.t@myfrido.com', 'suraj.s@myfrido.com']
 CC_EMAILS     = []
 
