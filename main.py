@@ -1007,6 +1007,7 @@ html = f"""<!DOCTYPE html>
   <div class="header">
     <h1>Frido D2C Sales & Returns Report</h1>
     <div class="sub">{date_label} &nbsp;|&nbsp; D2C: MyFrido + Mobility</div>
+    <div class="sub" style="margin-top:6px;font-size:10px;color:#c8ddf0;">This is a cross-departmental product performance report based on order-level operational data. Return rates and revenue figures reflect operational calculations and may differ from finance team&apos;s reconciled statements.</div>
   </div>
 
   <!-- SECTION 1: KPI CARDS -->
